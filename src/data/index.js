@@ -2,6 +2,7 @@ import weatherapp1 from "../assets/projectImgs/weatherapp1.jpg";
 import movieapp1 from "../assets/projectImgs/movieapp1.jpg";
 import ecommerce1 from "../assets/projectImgs/ecommerce1.jpg";
 import personalPage1 from "../assets/projectImgs/personalPage1.jpg";
+import coffeHouse from "../assets/projectImgs/coffeehouse.jpg";
 import javascript from "../assets/technologies/javascript.png";
 import css from "../assets/technologies/css.png";
 import sass from "../assets/technologies/sass.png";
@@ -61,6 +62,14 @@ export const PROJECTS = [
     image: ecommerce1,
     githubLink: "https://github.com/andrefsbacalhau/ecommerce-app-1",
     vercelLink: "https://ecommerce-app-1-ashen.vercel.app/",
+  },
+  {
+    name: "KoffeeHouse",
+    description: "Just a simple website sample (SASS prac.)",
+    techs: [html, javascript, sass],
+    image: coffeHouse,
+    githubLink: "https://github.com/andrefsbacalhau/koffeehouse",
+    vercelLink: "https://koffeehouse.vercel.app/",
   },
 ];
 

@@ -33,7 +33,7 @@ const Projects = () => {
         {PROJECTS.map((project, index) => (
           <motion.div
             key={index}
-            className="relative rounded-lg overflow-hidden w-[350px] h-[350px] lg:w-[470px] lg:h-[375px] xl:w-[550px] xl:h-[400px] transition"
+            className="relative rounded-lg overflow-hidden w-[600px] h-[525px] lg:w-[470px] lg:h-[375px] xl:w-[550px] xl:h-[400px] transition"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -42,10 +42,10 @@ const Projects = () => {
             <img
               src={project.image}
               alt={project.name}
-              className="absolute inset-0 w-full h-full object-fit transition-opacity duration-300"
+              className="absolute inset-0 w-full h-full object-cover"
             />
-            <div className="absolute z-20 bottom-0 left-0 w-full h-[60%] px-6 flex flex-col justify-evenly backdrop-blur-lg bg-black/40 text-white">
-              <h2 className="text-3xl font-bold mb-2">{project.name} |</h2>
+            <div className="absolute z-20 bottom-0 left-0 w-full h-[45%] lg:h-full px-6 flex flex-col items-center justify-evenly backdrop-blur-sm bg-black/40 text-white lg:opacity-0 lg:hover:opacity-100 transition-all duration-500">
+              <h2 className="text-3xl font-bold mb-2">{project.name}</h2>
               <p className="text-lg">{project.description}</p>
               <div className="flex gap-3 my-2">
                 {project.techs.map((tech) => (
