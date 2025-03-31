@@ -20,9 +20,9 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "I'm glad you found my portfolio",
+  greeting: "My name is André Bacalhau,",
   introduction:
-    "My name is André Bacalhau, a junior front-end developer and enthusiast in developing creative, inovative and immersive digital solutions.",
+    "I'm a junior front-end developer and enthusiast in developing creative, inovative and immersive digital solutions.",
   description:
     "At the moment i’m available for any collaborations, open to new projects, looking forward to develop my skills in a environment which will allow me to grow and create something meaningful. This page will not only showcase my skills, but also more about me and my past experiences in a more creative and pleasing way a resume could, but you can still download it on the button down bellow.",
   resumeLinkText: "Download Resume",
