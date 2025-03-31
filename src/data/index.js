@@ -20,22 +20,23 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Welcome to my personal page,",
+  greeting: "I'm glad you found my portfolio",
   introduction:
-    "I’m André Bacalhau, a junior front-end developer and enthusiast in developing creative, inovative and immersive digital solutions.",
+    "My name is André Bacalhau, a junior front-end developer and enthusiast in developing creative, inovative and immersive digital solutions.",
   description:
-    "At the moment, i'm a self-learning developer who is always open and available to learn, grow and develop my skills with all the knowledge i can get about all things. \nI consider myself as someone who's always looking forward to achieve my goals with efficiency, precision and always in search of better way to do things.",
+    "At the moment i’m available for any collaborations, open to new projects, looking forward to develop my skills in a environment which will allow me to grow and create something meaningful. This page will not only showcase my skills, but also more about me and my past experiences in a more creative and pleasing way a resume could, but you can still download it on the button down bellow.",
   resumeLinkText: "Download Resume",
   resumeLink: cv,
 };
 
 export const PROJECTS = [
   {
-    name: "My Personal Page",
-    description: "This same personal page we're at!",
-    techs: [javascript, react, tailwindcss],
-    image: personalPage1,
-    githubLink: "https://github.com/andrefsbacalhau/personal-page-1",
+    name: "E-Commerce App",
+    description: "Clothing website with a functional cart. (with API)",
+    techs: [html, javascript, react, tailwindcss],
+    image: ecommerce1,
+    githubLink: "https://github.com/andrefsbacalhau/ecommerce-app-1",
+    vercelLink: "https://ecommerce-app-1-ashen.vercel.app/",
   },
   {
     name: "Movie App",
@@ -47,6 +48,14 @@ export const PROJECTS = [
     vercelLink: "https://movie-app-1-flame.vercel.app/",
   },
   {
+    name: "KoffeeHouse",
+    description: "Just a simple website sample (SASS prac.)",
+    techs: [html, javascript, sass],
+    image: coffeHouse,
+    githubLink: "https://github.com/andrefsbacalhau/koffeehouse",
+    vercelLink: "https://koffeehouse.vercel.app/",
+  },
+  {
     name: "Weather App",
     description:
       "Check the current weather for every city worldwide! (with API)",
@@ -56,26 +65,17 @@ export const PROJECTS = [
     vercelLink: "https://weather-app-1-fawn.vercel.app/",
   },
   {
-    name: "E-Commerce App",
-    description: "Clothing website with a functional cart. (with API)",
-    techs: [html, javascript, react, tailwindcss],
-    image: ecommerce1,
-    githubLink: "https://github.com/andrefsbacalhau/ecommerce-app-1",
-    vercelLink: "https://ecommerce-app-1-ashen.vercel.app/",
-  },
-  {
-    name: "KoffeeHouse",
-    description: "Just a simple website sample (SASS prac.)",
-    techs: [html, javascript, sass],
-    image: coffeHouse,
-    githubLink: "https://github.com/andrefsbacalhau/koffeehouse",
-    vercelLink: "https://koffeehouse.vercel.app/",
+    name: "My Personal Page",
+    description: "This same personal page we're at!",
+    techs: [javascript, react, tailwindcss],
+    image: personalPage1,
+    githubLink: "https://github.com/andrefsbacalhau/personal-page-1",
   },
 ];
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "Since i’ve focused more on the front-end side of the web developing, i grew fond and always kept growing with technologies like ReactJS, TailwindCSS, SASS/SCSS, besides the usual ones like HTML, CSS and JavaScript. These were mainly used on the projects you’ll find on this page considering the type of project, considering they were the right ones to make it scalable, responsive and always taking in consideration to bring on the best performance and providing a seamless user experience.",
+    "Since i’ve focused more on the front-end side of the web developing, i grew fond and always kept growing with technologies like ReactJS, TailwindCSS, SASS/SCSS, besides the usual ones like HTML, CSS and JavaScript. These were mainly used on the projects you’ll find on this page considering the type of project, which were the right ones to make it scalable, responsive and always taking in consideration to bring on the best performance and providing a seamless user experience.",
     "As a person/developer, i consider myself as someone who dedicated to grow, learn, build a cleaner code and get better with each project, because i think there is always something that can be improved. In my developing process, i always try to balance the functional side with the aesthetically pleasing side but always regarding the user-friendlyness and it’s performance.",
     "By being a overall self-learning front-end developer, i created this portfolio so you could learn more about me, not only to give myself the opportunity to showcase my knowledge but also my work/skills, luckly you’ll find some interest and might be a chance for us to build something great together!",
   ],
