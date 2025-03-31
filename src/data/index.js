@@ -4,7 +4,6 @@ import ecommerce1 from "../assets/projectImgs/ecommerce1.jpg";
 import personalPage1 from "../assets/projectImgs/personalPage1.jpg";
 import coffeHouse from "../assets/projectImgs/coffeehouse.jpg";
 import javascript from "../assets/technologies/javascript.png";
-import css from "../assets/technologies/css.png";
 import sass from "../assets/technologies/sass.png";
 import tailwindcss from "../assets/technologies/tailwindcss.png";
 import html from "../assets/technologies/html.png";
@@ -14,7 +13,7 @@ import cv from "../assets/cv.pdf";
 export const LINKS = [
   { href: "#about", label: "About" },
   { href: "#work", label: "Projects" },
-  { href: "#academics", label: "Academics" },
+  { href: "#education", label: "Education" },
   { href: "#experience", label: "Experience" },
   { href: "#contact", label: "Contact" },
 ];
@@ -144,7 +143,7 @@ export const EXPERIENCES = [
   },
 ];
 
-export const ACADEMICS = [
+export const EDUCATION = [
   {
     yearRange: "2017 - 2021",
     title:

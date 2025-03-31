@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ACADEMICS } from "../data";
+import { EDUCATION } from "../data";
 
-const Academics = () => {
+const Education = () => {
   const containerVariants = {
     hidden: {
       opacity: 0,
@@ -35,9 +35,9 @@ const Academics = () => {
   };
 
   return (
-    <section className="px-6 py-25" id="academics">
+    <section className="px-6 py-25" id="education">
       <h2 className="text-4xl md:text-6xl font-medium tracking-light mb-5">
-        Academics
+        Education
       </h2>
       <div className="h-1 w-20 mb-8 bg-white"></div>
 
@@ -48,18 +48,18 @@ const Academics = () => {
         viewport={{ once: true, amount: 0.3 }}
         variants={containerVariants}
       >
-        {ACADEMICS.map((academic, index) => (
+        {EDUCATION.map((education, index) => (
           <motion.div key={index} variants={childVariants}>
             <div className="flex flex-col md:flex-row md:justify-between">
               <div className="text-sm md:w-1/4 mb-2 md:mb-0">
-                {academic.yearRange}
+                {education.yearRange}
               </div>
               <div className="md:w-3/4 mb-10">
                 <div className="max-w-3xl backdrop-blue-3xl p-4 bg-stone-600/10 rounded-lg">
-                  <h2 className="text-xl mb-2">{academic.title}</h2>
-                  <p className="mb-3 text-sm italic">{academic.location}</p>
+                  <h2 className="text-xl mb-2">{education.title}</h2>
+                  <p className="mb-3 text-sm italic">{education.location}</p>
                   <h1 className="mt-4">
-                    Final evaluation: {academic.finalEval}
+                    Final evaluation: {education.finalEval}
                   </h1>
                 </div>
               </div>
@@ -71,4 +71,4 @@ const Academics = () => {
   );
 };
 
-export default Academics;
+export default Education;
