@@ -24,7 +24,7 @@ export const HERO_CONTENT = {
   introduction:
     "I’m André Bacalhau, a junior front-end developer and enthusiast in developing creative, inovative and immersive digital solutions.",
   description:
-    "Mostly, i'm a self-learning developer that is always open and available to develop my skills with all the knowledge i can get about all things. \nI consider myself as someone who's always looking forward to achieve my goals with efficiency, precision and always in search of better way to do things.",
+    "At the moment, i'm a self-learning developer who is always open and available to learn, grow and develop my skills with all the knowledge i can get about all things. \nI consider myself as someone who's always looking forward to achieve my goals with efficiency, precision and always in search of better way to do things.",
   resumeLinkText: "Download Resume",
   resumeLink: cv,
 };
@@ -75,8 +75,9 @@ export const PROJECTS = [
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated junior front-end developer, always looking to build the next project better and cleaner than the last, meeting the requirement of the projects/challenges i’m facing. In my developing process, I always try to find a balance between the aesthetically pleasing side and also the functional side, never leaving behind the performance and the user-friendlyness. By being an overall self-learning front-end developer, I’ve built dozens of projects which some of them can be found available on this page.",
-    "Since i’ve been focusing more on the front-end side, i grew fond and focused a few technologies (besides JavaScript, HTML and CSS), such as ReactJS and TailwindCSS, but I can also develop with CSS and the basics with SASS. All my projects are scalable, responsive and always taken in consideration to have the best performance providing a seamless user experience.",
+    "Since i’ve focused more on the front-end side of the web developing, i grew fond and always kept growing with technologies like ReactJS, TailwindCSS, SASS/SCSS, besides the usual ones like HTML, CSS and JavaScript. These were mainly used on the projects you’ll find on this page considering the type of project, considering they were the right ones to make it scalable, responsive and always taking in consideration to bring on the best performance and providing a seamless user experience.",
+    "As a person/developer, i consider myself as someone who dedicated to grow, learn, build a cleaner code and get better with each project, because i think there is always something that can be improved. In my developing process, i always try to balance the functional side with the aesthetically pleasing side but always regarding the user-friendlyness and it’s performance.",
+    "By being a overall self-learning front-end developer, i created this portfolio so you could learn more about me, not only to give myself the opportunity to showcase my knowledge but also my work/skills, luckly you’ll find some interest and might be a chance for us to build something great together!",
   ],
 };
 

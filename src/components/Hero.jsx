@@ -45,7 +45,7 @@ const Hero = () => {
             {HERO_CONTENT.introduction}
           </motion.p>
           <motion.p
-            className="text-xl md:text-2xl lg:-text-4xl mb-4"
+            className="text-xl md:text-2xl lg:-text-4xl text-justify mb-4"
             variants={textVariants}
           >
             {HERO_CONTENT.description}
