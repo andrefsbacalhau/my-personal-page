@@ -39,6 +39,14 @@ export const PROJECTS = [
     vercelLink: "https://ecommerce-app-1-ashen.vercel.app/",
   },
   {
+    name: "KoffeeHouse",
+    description: "Coffe shop website demo (SASS prac.)",
+    techs: [html, javascript, sass],
+    image: coffeHouse,
+    githubLink: "https://github.com/andrefsbacalhau/koffeehouse",
+    vercelLink: "https://koffeehouse.vercel.app/",
+  },
+  {
     name: "Movie App",
     description:
       "Movie landing page, with functional search options. (with API)",
@@ -46,14 +54,6 @@ export const PROJECTS = [
     image: movieapp1,
     githubLink: "https://github.com/andrefsbacalhau/movie-app-1",
     vercelLink: "https://movie-app-1-flame.vercel.app/",
-  },
-  {
-    name: "KoffeeHouse",
-    description: "Just a simple website sample (SASS prac.)",
-    techs: [html, javascript, sass],
-    image: coffeHouse,
-    githubLink: "https://github.com/andrefsbacalhau/koffeehouse",
-    vercelLink: "https://koffeehouse.vercel.app/",
   },
   {
     name: "Weather App",
