@@ -76,7 +76,7 @@ export const PROJECTS = [
 export const ABOUT_CONTENT = {
   paragraphs: [
     "Since i’ve focused more on the front-end side of the web developing, i grew fond and always kept growing with technologies like ReactJS, TailwindCSS, SASS/SCSS, besides the usual ones like HTML, CSS and JavaScript. These were used taking in consideration type of project, and chose by which ones would allow to keep it scalable, responsive and always looking forward the best performance and providing a seamless user experience.",
-    "As a person/developer, i consider myself as someone responsible and who's dedicated to grow, learn, build a cleaner code and get better with each project, because i think there is always something that can be improved. In my developing process, i always try to balance the functional side with the aesthetically pleasing side but always regarding the user-friendlyness and it’s performance.",
+    "As a developer, i consider myself as someone responsible and who's dedicated to grow, learn, build a cleaner code and get better with each project, because i think there is always something that can be improved. In my developing process, i always try to balance the functional side with the aesthetically pleasing side but always regarding the user-friendlyness and it’s performance.",
   ],
 };
 
