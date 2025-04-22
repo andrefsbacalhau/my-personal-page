@@ -48,7 +48,7 @@ export const PROJECTS = [
   },
   {
     name: "Weather/Forecast V2",
-    description: "See the weather and next days forecast",
+    description: "See the weather and next days forecast (Tanstack test)",
     techs: [html, javascript, react, sass],
     image: weatherapp2,
     githubLink: "https://github.com/andrefsbacalhau/weather-app-v2",
