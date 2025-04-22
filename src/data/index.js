@@ -1,5 +1,5 @@
 import weatherapp1 from "../assets/projectImgs/weatherapp1.jpg";
-import weatherapp2 from "../assets/projectImgs/weatherapp2.jpg";
+import weatherapp2 from "../assets/projectImgs/weatherapp2tic1.jpg";
 import movieapp1 from "../assets/projectImgs/movieapp1.jpg";
 import ecommerce1 from "../assets/projectImgs/ecommerce1.jpg";
 import personalPage1 from "../assets/projectImgs/personalPage1.jpg";
