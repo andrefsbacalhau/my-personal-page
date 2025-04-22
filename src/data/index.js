@@ -1,4 +1,5 @@
 import weatherapp1 from "../assets/projectImgs/weatherapp1.jpg";
+import weatherapp2 from "../assets/projectImgs/weatherapp2.jpg";
 import movieapp1 from "../assets/projectImgs/movieapp1.jpg";
 import ecommerce1 from "../assets/projectImgs/ecommerce1.jpg";
 import personalPage1 from "../assets/projectImgs/personalPage1.jpg";
@@ -46,6 +47,14 @@ export const PROJECTS = [
     vercelLink: "https://koffeehouse.vercel.app/",
   },
   {
+    name: "Weather/Forecast V2",
+    description: "See the weather and next days forecast",
+    techs: [html, javascript, react, sass],
+    image: weatherapp2,
+    githubLink: "https://github.com/andrefsbacalhau/weather-app-v2",
+    vercelLink: "https://weather-app-v2-mu.vercel.app/",
+  },
+  {
     name: "Movie App",
     description:
       "Movie landing page, with functional search options. (with API)",
@@ -55,7 +64,7 @@ export const PROJECTS = [
     vercelLink: "https://movie-app-1-flame.vercel.app/",
   },
   {
-    name: "Weather App",
+    name: "Weather App (Newbie version)",
     description:
       "Check the current weather for every city worldwide! (with API)",
     techs: [html, javascript, react, tailwindcss],
